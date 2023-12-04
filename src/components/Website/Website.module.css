@@ -1,0 +1,49 @@
+.htmlScreen {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  width: 1340px;
+  height: 830px;
+  border: none;
+  /* border-radius: 30px; */
+  background: #fff;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* @media (max-width: 940px) {
+  .htmlScreen {
+    display: flex;
+    flex-direction: column;
+    width: 610px;
+    height: 1300px;
+    border: none;
+    border-radius: 80px !important;
+    background: #fff;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+} */
+
+.htmlScreen::-webkit-scrollbar {
+  display: none;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: fit-content;
+  flex: 2;
+  padding: 12%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  gap: 1rem;
+}
+
+.cv {
+  min-height: 100vh;
+  min-width: 100%;
+}
