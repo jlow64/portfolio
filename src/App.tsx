@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber';
-import { Perf } from 'r3f-perf';
+// import { Perf } from 'r3f-perf';
 import { useRef, MutableRefObject } from 'react';
 import { Loader } from '@react-three/drei';
 

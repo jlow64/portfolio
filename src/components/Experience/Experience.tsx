@@ -6,16 +6,8 @@ import {
   ScrollControls,
   Resize,
 } from '@react-three/drei';
-import {
-  EffectComposer,
-  SelectiveBloom,
-  Vignette,
-} from '@react-three/postprocessing';
+import { EffectComposer, Vignette } from '@react-three/postprocessing';
 import { useRef, Suspense, MutableRefObject } from 'react';
-// import { Group } from 'three';
-import { useThree } from '@react-three/fiber';
-// import styles from './Experience.module.css';
-// import Website from '@/components/Website';
 import Macbook from '@/components/Macbook';
 import Cat from '@/components/Cat';
 
