@@ -2,10 +2,9 @@
   position: static;
   display: flex;
   flex-direction: column;
-  width: 1340px;
-  height: 830px;
+  width: 1335px;
+  height: 835px;
   border: none;
-  /* border-radius: 30px; */
   background: #fff;
   overflow-y: scroll;
   scrollbar-width: none;

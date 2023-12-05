@@ -22,11 +22,11 @@ function App() {
           fov: 45,
           near: 0.1,
           far: 2000,
-          position: [-8, 1, 2],
+          position: [-3, 1, 2],
         }}
         eventPrefix="page"
       >
-        <Perf position="top-left" />
+        {/* <Perf position="top-left" /> */}
         <Experience portal={domContainer as MutableRefObject<HTMLDivElement>} />
       </Canvas>
       <Loader />
